@@ -1,0 +1,72 @@
+.perfil {
+  background-color: #3e4147;
+}
+
+.perfil label{
+  margin: 10px;
+}
+
+.perfil .user {
+  margin-top: 150px;
+}
+
+.perfil .btnsin {
+  margin: auto;
+  display: block;
+  width: 250px;
+  margin-top: -15px;
+}
+
+.perfil .btnsup {
+  margin: auto;
+  display: block;
+  width: 250px;
+  margin-top: -15px;
+}
+
+.perfil .entrada{
+  background-color: #3e4147;
+}
+
+.perfil img.imagem{
+  width: 100%;
+  /*height: */
+}
+
+.perfil .foto {
+  width: 150px;
+  height: 150px;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+
+.perfil h4{
+  color: white;
+  margin-left: 5px;
+
+}
+
+.perfil .lista{
+color: white;
+margin-left: 20px;
+
+}
+
+.perfil .descricao {
+  color: white;
+  margin-left: 15px;
+
+}
+
+.perfil h5{
+  color: white;
+}
+
+.perfil .obrasx {
+  width: 150px;
+  ´
+}
+
+.perfil .obras {
+  margin-left: 7px;
+}

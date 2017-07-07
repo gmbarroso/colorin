@@ -1,0 +1,71 @@
+<ion-view view-title="Perfil">
+  <ion-content class="perfil">
+
+    <section ng-if="!usuario.logado">
+      <div class="list list-inset entrada">
+        <label class="item item-input user">
+          <input type="text" placeholder="User">
+        </label>
+        <label class="item item-input password">
+          <input type="text" placeholder="Password">
+        </label>
+      </div>
+      <br>
+      <button class="button button-assertive btnsin" ng-click="clicar()">
+
+        Sign In
+      </button>
+      <br>
+      <button class="button button-positive btnsup">
+        Sign Up
+      </button>
+    </section>
+
+    <section ng-if="usuario.logado">
+
+      <img class="imagem" src="img/jorge.jpg" alt="">
+      <div class="row">
+        <div class="foto">
+          <img class="foto"src="img/dg.jpg" alt="">
+        </div>
+        <div class="lista">
+          <h4 class="nome">Daniel Gnattali</h4>
+          <ul>
+            <li>Promote/follow</li>
+            <li>Contacto</li>
+            <li>Message</li>
+            <li>Patrocinar Daniel</li>
+            <li>Mais+</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="descricao">
+        <h5>Descrição:</h5>
+        <p>descrição descrição descrição descrição descrição descrição descrição descrição descrição </p>
+
+      </div>
+
+      <section class="obras">
+        <div class="row">
+          <div class="col"><img class="obrasx" src="img/olho.jpg" alt=""></div>
+          <div class="col"><img class="obrasx" src="img/fodase.jpg" alt=""></div>
+        </div>
+
+        <div class="row">
+          <div class="col"><img class="obrasx" src="img/indio.jpg" alt=""></div>
+          <div class="col"><img class="obrasx" src="img/planetas.jpg" alt=""></div>
+        </div>
+        <div class="row">
+          <div class="col"><img class="obrasx" src="img/peido.jpg" alt=""></div>
+          <div class="col"><img class="obrasx" src="img/sjorge.jpg" alt=""></div>
+
+        </div>
+      </section>
+
+
+    </section>
+
+
+  </ion-content>
+</ion-view>
